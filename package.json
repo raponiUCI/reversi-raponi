@@ -1,0 +1,28 @@
+{
+  "name": "reversi_raponi",
+  "version": "0.0.1",
+  "description": "This is a web version of the game reversi.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raponiUCI/reversi-raponi.git"
+  },
+  "keywords": [
+    "raponi",
+    "hci",
+    "technology"
+  ],
+  "author": "Anthony (AJ)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/raponiUCI/reversi-raponi/issues"
+  },
+  "homepage": "https://github.com/raponiUCI/reversi-raponi#readme",
+  "dependencies": {
+    "node-static": "^0.7.11",
+    "socket.io": "^4.6.1"
+  }
+}
