@@ -25,10 +25,11 @@ body {
     padding: 0px;
   }
 
-  table#game_board td{
+  table#game_board td {
     border: 1px solid black;
     margin: 0px;
     padding: 0px;
+    background-color: #f09245;
   }
 
   td.hovered_over:hover {
