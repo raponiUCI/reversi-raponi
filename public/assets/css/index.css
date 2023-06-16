@@ -1,0 +1,26 @@
+body {
+    background-image: url('/assets/images/background_2.png');
+    background-color: #ACDDFE;
+    font-family: Helvetica, sans-serif;
+  }
+
+.btn-success {
+    background-color: #EE46D3;
+    border-color: #EE46D3;
+}
+
+.btn-success:hover {
+    background-color: #EE46D3;
+    border-color: #EE46D3;
+    scale: 110%;
+}
+
+.btn-primary {
+    background-color: #18A0FB;
+    border-color: white;
+}
+
+.btn-primary:hover {
+    background-color: #158ddd;
+    border-color: #158ddd;
+}

@@ -1,0 +1,94 @@
+body {
+    background-image: url('/assets/images/background_2.png');
+    background-color: #ACDDFE;
+    font-family: Helvetica, sans-serif;
+  }
+
+.headerrow {
+    background-color: #EE46D3;
+    
+  }
+
+#lobbyTitle {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 900;
+    color: white;
+}
+
+
+.playerList {
+    
+    outline-style: solid;
+    outline-color: #EE46D3;
+    outline-offset: 2px;
+}
+
+.join_room_response, 
+.left_room_response {
+    background-color: #ee46d271;
+    font-style: italic;
+    text-align: center;
+  }
+
+.chat_message {
+    margin: 1px 1px 1px 1px;
+    font-size: 125%;
+    color: #000000;
+  }
+
+.btn-primary .btn{
+    background-color: #EE46D3;
+}
+
+.btn-outline-primary {
+    border-color: #EE46D3;
+    color: black;
+}
+
+.btn-outline-primary:hover {
+    background-color: #EE46D3;
+    border-color: #EE46D3;
+}
+
+#chatButton {
+    background-color: #18A0FB;
+    border-color: #18A0FB;
+}
+
+#chatButton:hover {
+    background-color: #158ddd;
+    border-color: #158ddd;
+}
+
+.invitedButton {
+    background-color: #18A0FB;
+    border-color: #18A0FB;
+}
+
+.invitedButton:hover {
+    background-color: #158ddd;
+    border-color: #158ddd;
+  }
+
+.btn-success {
+    background-color: #EE46D3;
+    border-color: #EE46D3;
+}
+
+.btn-success:hover {
+    background-color: white;
+    color: black;
+    border-color: #EE46D3;
+    scale: 115%;
+}
+
+.btn-danger {
+    background-color: #EE46D3;
+    border-color: #158ddd;
+}
+
+h4 {
+    font-weight: 600;
+}
+

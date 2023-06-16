@@ -44,7 +44,7 @@ function makeInviteButton(socket_id) {
 }
 
 function makeInvitedButton(socket_id) {
-    let newHTML = "<button type='button' class='btn btn-primary'>Invited</button>"
+    let newHTML = "<button type='button' class='btn btn-primary invitedButton'>Invited</button>"
     let newNode = $(newHTML);
     newNode.click( () => {
         let payload = {
@@ -214,7 +214,7 @@ socket.on('player_disconnected', (payload) =>{
         domElements.hide("fade", 500);
     }
 
-    let newHTML = '<p class =\'left_room_response\'>'+payload.username+' left the chatroom. (There are '+payload.count+' users in this room)</p>';
+    let newHTML = '<p class =\'left_room_response\'>'+payload.username+' left the chatroom. (There are ' + payload.count + ' users in this room)</p>';
     let newNode = $(newHTML);
     newNode.hide();
     $('#messages').prepend(newNode);
